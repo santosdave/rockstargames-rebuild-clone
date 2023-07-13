@@ -1,4 +1,8 @@
 import '@/styles/globals.css'
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/free-mode";
 import type { AppProps } from 'next/app'
 import ProgressBar from "@badrap/bar-of-progress";
 import Router from "next/router";

@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { motion } from "framer-motion"
 import MainLayout from '@/components/layout/MainLayout'
+import HeroSection from '@/components/ui/HeroSection'
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
       </Head>
       <main className=''>
         <MainLayout title='Home'>
-
+            <HeroSection/>
         </MainLayout>
       </main>
     </motion.div>

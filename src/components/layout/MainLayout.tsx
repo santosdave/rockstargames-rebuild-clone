@@ -12,6 +12,7 @@ export default function MainLayout({ children ,title}: MainLayoutProps) {
     return (
         <>
             <Header title={title} />
+            {children}
         </>
     )
 }

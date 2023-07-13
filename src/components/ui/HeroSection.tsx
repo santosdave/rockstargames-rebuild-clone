@@ -33,7 +33,7 @@ function Carousel({ changeBackground }: { changeBackground: Dispatch<SetStateAct
   const handleItemClick = (itemName: any) => {
   }
   return (
-    <div className='pt-8'>
+    <div className='pt-2'>
       <Swiper
         id="carousel"
         modules={[Navigation, Autoplay, Mousewheel]}
@@ -70,10 +70,14 @@ function Carousel({ changeBackground }: { changeBackground: Dispatch<SetStateAct
                     {item.title}
                   </span>
                   <button
+                    style={{ backgroundImage: `${item.url}` }}
                     className="border border-black dark:border-white/10  mt-5 
-                    bg-white text-black dark:bg-black dark:text-white hover:bg-[#cc9b13]  px-4 py-2 rounded-full font-medium active:scale-90
-                    transition duration-100">
-                    WATCH NOW
+                      hover:bg-[#cc9b13]  px-4 py-2 rounded-full font-medium active:scale-90
+                     bg-cover bg-top bg-no-repeat transition-[background] duration-500 after:absolute after:inset-0 
+                     after:-z-10 after:backdrop-blur-xl after:[background:linear-gradient(0deg,rgb(255,255,255)_5%,rgba(0,0,0,0)_60%)_rgba(0,0,0,0.5)]">
+                    <span className='text-black  dark:text-white'>
+                      WATCH NOW
+                    </span>
                   </button>
                 </div>
               </div>

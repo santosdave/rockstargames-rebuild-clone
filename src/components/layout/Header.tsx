@@ -50,7 +50,7 @@ export default function Header({ title }: Props) {
             ref={ref}
             className={
                 `${isSticked ? 'border-b dark:border-slate-600 bg-white dark:bg-black text-black dark:text-black' :
-                    'text-black dark:black bg-white dark:bg-black '} sticky -top-[0.1px] z-50 transition-colors duration-150`}
+                    'text-black dark:black bg-transparent'} sticky -top-[0.1px] z-50 transition-colors duration-150`}
         >
             <MainContainer>
                 <div className='flex h-[4.25rem] w-full  justify-between items-center gap-x-2 py-2.5 px-6'>

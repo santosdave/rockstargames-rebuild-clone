@@ -11,7 +11,7 @@ import { Toaster } from 'react-hot-toast';
 
 const progress = new ProgressBar({
   size: 4,
-  color: "#FE595E",
+  color: "#fcaf17",
   className: "z-50",
   delay: 100,
 });

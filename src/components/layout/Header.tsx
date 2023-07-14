@@ -50,7 +50,7 @@ export default function Header({ title }: Props) {
             ref={ref}
             className={
                 `${isSticked ? 'border-b dark:border-slate-600 bg-white dark:bg-black text-black dark:text-black' :
-                    'text-black dark:black bg-transparent'} sticky -top-[0.1px] z-50 transition-colors duration-150`}
+                    'text-black  bg-transparent'} sticky -top-[0.1px] z-50 transition-colors duration-150`}
         >
             <MainContainer>
                 <div className='flex h-[4.25rem] w-full  justify-between items-center gap-x-2 py-2.5 px-6'>
@@ -70,7 +70,7 @@ export default function Header({ title }: Props) {
                             />
                         )
                         }
-                        <h2 className='font-bold text-xl'>{title}</h2>
+                        <h2 className='font-bold text-xl hidden md:flex'>{title}</h2>
 
                     </div>
 
@@ -122,7 +122,7 @@ export default function Header({ title }: Props) {
                 {nav ? <div className='bg-black/80 fixed w-full h-screen z-10 top-0 left-0 duration-300'></div> : ''}
 
                 {/* Sidedrawer Menu */}
-                <div className={`${nav ? 'left-0' : '-left-full'}  fixed  top-20 w-[350px] h-screen bg-white dark:bg-slate-600 z-10  duration-700 `}>
+                <div className={`${nav ? 'left-0' : '-left-full'}  fixed  top-16 w-[350px] h-screen bg-white dark:bg-slate-600 z-10  duration-700 `}>
                     <AiOutlineClose onClick={handleNavMenu} size={25} className='text-black  dark:text-gray-300 absolute right-4 top-7 cursor-pointer' />
                     <h2 className='text-black  dark:text-gray-400  font-bold text-2xl p-4'>
                         <div className='flex items-center gap-x-2'>

@@ -2,6 +2,8 @@ import Head from 'next/head'
 import { motion } from "framer-motion"
 import MainLayout from '@/components/layout/MainLayout'
 import HeroSection from '@/components/ui/HeroSection'
+import Newswire from '@/components/ui/Newswire'
+import FeaturedGamesSection from '@/components/FeaturedGamesSection'
 
 export default function Home() {
   return (
@@ -9,7 +11,7 @@ export default function Home() {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
-      className="  dark:text-gray-400 scrollbar-hide max-h-screen max-w-screen overflow-auto"
+      className="bg-transparent  dark:text-gray-400 scrollbar-hide max-h-screen max-w-screen overflow-auto"
     >
       <Head>
         <title>Dave&apos;s Rockstar Games Rebuild | Home </title>
@@ -20,6 +22,8 @@ export default function Home() {
       <main className=''>
         <MainLayout title='Home'>
             <HeroSection/>
+            <Newswire/>
+            <FeaturedGamesSection title="Featured Games" />
         </MainLayout>
       </main>
     </motion.div>

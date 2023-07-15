@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import { motion } from "framer-motion"
 import MainLayout from '@/components/layout/MainLayout'
+import DownloadsComponent from '@/components/downloads/DownloadsComponent'
 
 type Props = {}
 
@@ -21,7 +22,7 @@ export default function downloads({ }: Props) {
             </Head>
             <main className=''>
                 <MainLayout title='Downloads'>
-
+                    <DownloadsComponent />
                 </MainLayout>
             </main>
         </motion.div>

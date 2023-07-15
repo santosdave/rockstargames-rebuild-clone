@@ -34,7 +34,14 @@ export const NEWSWIRE_ITEM = {
 }
 
 export const VIDEO_ITEM = {
-    pic: "https://media-rockstargames-com.akamaized.net/tina-uploads/posts/4ka34495o11k2a/433d974387f12c6a8cbbeae3f98f94f4d62cbba5.jpg",
+    pic: "https://media-rockstargames-com.akamaized.net/tina-uploads/posts/k43328ka511549/d63bcd42d533ae9ca392a4cfd2a5d8c37d55a9f3.jpg",
+    title: "GTA Online One",
+    release_date: "January 27,2022",
+    description: `Your Chariot Has Arrived:The Declasse Granger 3600LX,Available Now`
+}
+
+export const DOWNLOAD_ITEM = {
+    pic: "https://media-rockstargames-com.akamaized.net/tina-uploads/posts/k43328ka511549/d63bcd42d533ae9ca392a4cfd2a5d8c37d55a9f3.jpg",
     title: "GTA Online One",
     release_date: "January 27,2022",
     description: `Your Chariot Has Arrived:The Declasse Granger 3600LX,Available Now`

@@ -162,7 +162,7 @@ export default function Header({ title }: Props) {
                                     <AiFillTag size={25} className='mr-4' /> Downloads
                                 </Link>
                             </li>
-                            <li className=''>
+                            {/* <li className=''>
                                 <Link href={'/support'} className='text-xl py-4 flex items-center'>
                                     <BsFillSaveFill size={25} className='mr-4' /> Support
                                 </Link>
@@ -181,7 +181,7 @@ export default function Header({ title }: Props) {
                                 <Link href={'/store'} className='text-xl py-4 flex items-center'>
                                     <FaWallet size={25} className='mr-4' /> Store
                                 </Link>
-                            </li>
+                            </li> */}
                         </ul>
                     </nav>
                 </div>

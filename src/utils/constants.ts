@@ -26,6 +26,14 @@ export const CAROUSEL_ITEMS = [
 ]
 
 
+export const NEWSWIRE_ITEM = {
+    pic: "https://media-rockstargames-com.akamaized.net/tina-uploads/posts/51k1k9a2a577k9/1aa87bd28d2adc56467e0659d3d3c922da51b823.jpg",
+    title: "GTA Online Three",
+    release_date: "January 14,2022",
+    description: "Double Down:A New Co-Op Experience in GTA Online"
+}
+
+
 export const NEWSWIRE_ITEMS = [
     {
         pic: "https://media-rockstargames-com.akamaized.net/tina-uploads/posts/4ka34495o11k2a/433d974387f12c6a8cbbeae3f98f94f4d62cbba5.jpg",

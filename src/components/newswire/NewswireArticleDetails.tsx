@@ -38,7 +38,6 @@ export default function NewswireArticleDetails({ collection }: Props) {
                         <span className="text-sm">
                             {collection.release_date}
                         </span>
-
                         <div className="mt-4 flex flex-col gap-y-5">
                             <p className="text-base">
                                 This week in GTA Online, there’s money to be made running mercenary and security ops across multiple disciplines — Project Overthrow Missions, LSA Operations, and Security Contracts are all reliable and inflated sources of steady income this week. Meanwhile, the San Andreas Mercenaries Bonuses Event reaches its conclusion, and Air Races are offering bonus pay to all competitors.
@@ -49,7 +48,6 @@ export default function NewswireArticleDetails({ collection }: Props) {
                             <p className="text-base">
                                 Join forces with ex-con-turned-mercenary Charlie Reed in taking on Merryweather in Project Overthrow Missions and earn double GTA$ and RP, all week long. GTA+ Members, meanwhile, will earn Triple Rewards for their help in taking down Merryweather’s forces in these explosive operations.
                             </p>
-
                             <div className="w-full">
                                 <img
                                     className="relative  h-64 md:h-[300px] xl:h-[400px] w-full object-top sm:object-center object-cover rounded-md "
@@ -60,9 +58,7 @@ export default function NewswireArticleDetails({ collection }: Props) {
                         </div>
                     </div>
                 </div>
-
             </MainContainer>
-
         </div>
     )
 }

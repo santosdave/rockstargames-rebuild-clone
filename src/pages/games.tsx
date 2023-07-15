@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import { motion } from "framer-motion"
 import MainLayout from '@/components/layout/MainLayout'
+import GamesComponent from '@/components/games/GamesComponent'
 
 type Props = {}
 
@@ -21,7 +22,7 @@ export default function games({ }: Props) {
             </Head>
             <main className=''>
                 <MainLayout title='Games'>
-
+                    <GamesComponent />
                 </MainLayout>
             </main>
         </motion.div>

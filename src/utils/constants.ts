@@ -33,6 +33,13 @@ export const NEWSWIRE_ITEM = {
     description: "Double Down:A New Co-Op Experience in GTA Online"
 }
 
+export const VIDEO_ITEM = {
+    pic: "https://media-rockstargames-com.akamaized.net/tina-uploads/posts/4ka34495o11k2a/433d974387f12c6a8cbbeae3f98f94f4d62cbba5.jpg",
+    title: "GTA Online One",
+    release_date: "January 27,2022",
+    description: `Your Chariot Has Arrived:The Declasse Granger 3600LX,Available Now`
+}
+
 
 export const NEWSWIRE_ITEMS = [
     {

@@ -30,9 +30,6 @@ export default function Header({ title }: Props) {
         setNav(!nav)
     }
 
-    const handleCartSidebar = () => {
-
-    }
 
     useEffect(() => {
         const cachedRef = ref.current,
